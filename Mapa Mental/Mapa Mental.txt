@@ -1,19 +1,31 @@
-Inteligência Artificial
-	Bots
-		Revolução Industrial
-			Automação
-			Imitação
-			Mão de Obra
-			Tecnologia
-		Substituição
-			Ética
-	Humanos
-		Adaptação
-		Comportamento Humano
-			Cognição
-			Consciência
-			Intuição
-			Mentalidade
-			Predição
-			Psicológico
-			Raciocínio
+Conhecimento
+	Curador de Aprendizado
+		Especialista Expert
+		Pensador
+		Pesquisador Científico
+	Professor Ideal
+		Facilitador de Aprendizado Prático
+		Facilitador de Aprendizado Teórico
+		Mentor
+	Nós
+		Aprendiz Prático
+		Aprendiz Teórico
+	Inteligência Artificial
+		Bots
+			Revolução Industrial
+				Automação
+				Imitação
+				Mão de Obra
+				Tecnologia
+			Substituição
+				Ética
+		Humanos
+			Adaptação
+			Comportamento Humano
+				Cognição
+				Consciência
+				Intuição
+				Mentalidade
+				Predição
+				Psicológico
+				Raciocínio
