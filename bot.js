@@ -38,7 +38,7 @@ async function questaoZero(input){
   await printarAtraso(question, 2000);	
 }
 
-async function questaoUm(input){
+async function questaoUm(input = 2000){
   let question ='<h1>Isso significa que você nasceu em ' + (2020 - input) + ' ou '+ (2019 - input) +'</h1>';
   await printarAtraso(question, 1000);
   document.getElementById("input").value = "";  
@@ -48,16 +48,16 @@ async function questaoUm(input){
 
  async function questaoDois(input){
   document.getElementById("input").value = "";   		// clear text box
-  let question = '<h1>O que você deseja saber mais sobre? Temos as seguintes opções: </h1>';	
+  let question = '<h1>O que você deseja saber mais sobre? Temos as seguintes opções: </h1> ';	
 
    await printarAtraso(question, 3000)
 
   question = '<h2> Esconde-Esconde Usando Bots</h2> ';	
 
    await printarAtraso(question);
-  question += '<h2> Replicação da Mente Humana</h2>';					      	
+  question += '<br/> <h2> Replicação da Mente Humana</h2>';					      	
    await printarAtraso(question);
-  question += ' <h2> O que é Imitation Learning?</h2>';	
+  question += ' <br/>  <h2> O que é Imitation Learning?</h2>';	
 
    await printarAtraso(question);
 
@@ -67,15 +67,16 @@ async function questaoUm(input){
 }
 
 function questaoTres(){
-  document.getElementById("input").value = "";   		// clear text box
-}
-function mudarHTML(question = "nenhuma questao inserida") {
-  console.log("Questão inserida: "+question);
-  output.innerHTML = question;
+  document.getElementById("input").value = "Questão 3 ainda não implementada.";   		// clear text box
 }
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function mudarHTML(question = "nenhuma questao inserida") {
+  console.log("Questão inserida: "+question);
+  output.innerHTML = question;
 }
 
 async function printarAtraso(question, time = 3000) {
